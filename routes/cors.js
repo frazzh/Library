@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-const whitelist = ['http://3.238.17.119:3000', 'http://3.238.17.119:5000'];
+const whitelist = ['http://54.227.162.108:3000', 'http://54.227.162.108:5000'];
 var corsOptionsDelegate = (req, callback) => {
     var corsOptions;
     console.log(req.header('Origin'));
